@@ -1,0 +1,16 @@
+logs/*log
+*.log
+*.class
+classes
+bin
+testresult
+.settings
+.factorypath
+.gradle*
+build
+.classpath
+.project
+.idea/
+**/out
+
+dist/
