@@ -24,7 +24,7 @@ public class ByteShortIntLong {
     public static void bytes() {
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
-        byte myNewByteVal = (byte) (myMinByteValue / 2);
+        byte myNewByteVal = (byte) (myMinByteValue / 2); // need casting (int)->(byte) here
 
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
