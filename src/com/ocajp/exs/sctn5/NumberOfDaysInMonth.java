@@ -22,7 +22,7 @@ public class NumberOfDaysInMonth {
             return -1;
         }
 
-        int[] dayCounts = { 0, 31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+        int[] dayCounts = { -1, 31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
         return dayCounts[month];
     }
